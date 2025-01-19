@@ -1,0 +1,19 @@
+.container {
+  display: flex; /* display 속성에서 'flex' 값 사용 */
+  flex-direction: column; /* 속성명은 카멜케이스가 아니라 '-'로 구분 */
+  justify-content: center; /* 세로 중앙 정렬 */
+  align-items: center; /* 가로 중앙 정렬 */
+  min-height: 100vh; /* 화면 전체 높이를 차지하도록 설정 */
+  padding: 20px; /* 적당한 여백 추가 */
+  background-color: #f0f0f0; /* 배경 색상 추가 */
+}
+
+.content {
+  text-align: center; /* 텍스트 중앙 정렬 */
+  background-color: white; /* 내용 배경 색상 */
+  padding: 20px; /* 내부 여백 */
+  border-radius: 8px; /* 테두리 둥글게 */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 (RGBA 구문 수정) */
+  width: 80%; /* 적당한 너비 */
+  max-width: 600px; /* 최대 너비 설정 */
+}
